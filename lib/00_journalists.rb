@@ -87,7 +87,7 @@ def start
   choice = gets.to_i  
   case choice 
   when choice = 1 
-    combien?(array)
+    combien?(handles)
     puts "Voici le résultat. Tapez Entrée pour continuer"
     print ">" 
     gets.chomp
